@@ -1,0 +1,38 @@
+.sponsorContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: none;
+    margin: 0 auto;
+    gap: 24px;
+    max-width: 1200px;
+}
+
+.logoContainer {
+    width: 282px;
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #7B7B7B;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .sponsorContent {
+        padding: 16px 0px;
+    }
+
+    .logoContainer {
+        width: 160px;
+        height: 100px;
+    }
+
+    .logoContainer img {
+        width: 100px;
+    }
+}

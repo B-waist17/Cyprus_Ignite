@@ -1,0 +1,85 @@
+.heroMain {
+    padding: 0 120px;
+    background-image: url('../../resources/Hero_Image.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.564);
+    height: 680px;
+    width: 100%;
+    
+}
+
+.heroContent {
+    color: #fff;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+
+}
+
+.heroCTA {
+    display: flex;
+    gap: 32px;
+}
+.heroBtn {
+    background-color: #079347;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+    width: 160px;
+    height: 50px;
+}
+:hover.heroBtn {
+    background-color: #fff;
+    color: #079347;
+    cursor: pointer;
+}
+.heroBtn1 {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    width: 160px;
+    height: 50px;
+}
+:hover.heroBtn1 {
+    background-color: #fff;
+    color: #079347;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .heroMain {
+        padding: 0 16px;
+        height: 400px;
+    }
+
+    .heroContent {
+        padding-top: 100px;
+        height: 250px;
+    }
+
+    .heroCTA {
+        gap: 16px;
+    }
+
+    .heroBtn {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .heroBtn1 {
+        width: 100px;
+        height: 40px;
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}

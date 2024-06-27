@@ -1,0 +1,43 @@
+.ministersMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.minister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.minister img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.ministerText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 550px) {
+    .ministersMain {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .minister img {
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+}

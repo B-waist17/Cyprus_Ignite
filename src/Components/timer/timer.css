@@ -1,0 +1,35 @@
+.timerMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: none;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.timerContent {
+    color: #080808;
+    box-shadow: rgba(0, 0, 0, 0.343) 0px 4px 17px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 129px;
+    width: 129px;
+    padding: 24px;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .timerMain {
+        width: 100%;
+        padding: 20px 8px;
+    }
+
+    .timerContent {
+        height: 80px;
+        width: 80px;
+    }
+}
