@@ -19,7 +19,7 @@
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.564);
   background-blend-mode: overlay;
-  height: 680px;
+  height: 750px;
   width: 100%;
   color: aliceblue;
   display: flex;
@@ -27,7 +27,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 60px 20px;
+  text-align: center;
 
+}
+
+.ministers p {
+  max-width: 800px;
+  margin-bottom: 24px;
 }
 
 .join {

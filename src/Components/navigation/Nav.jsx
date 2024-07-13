@@ -26,7 +26,7 @@ const Nav = () => {
       <div className='navContentLinks'>
         <Menu />
       </div>
-      <button className='navCTA'>Volunteer</button>
+      <button className='navCTA'>Donate</button>
       <div className='navMenu'>
         {
           toggleMenu 

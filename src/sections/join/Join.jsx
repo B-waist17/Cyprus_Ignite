@@ -5,17 +5,15 @@ const Join = () => {
     <div className='joinMain'>
       <div className='joinContent'>
         <h3>Become a Volunteer</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer 
+        <p>Interested in volunteering at the Transforming Fire Conference? Here comes a great 
+          opportunity for you to serve the Lord as we have a variety of volunteer opportunities, 
+          click to see the area of where you can serve. 
         </p>
         <button className='joinBtn'>Volunteer</button>
       </div>
       <div className='joinContent'>
         <h3>Become a Donor/Sponsor</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer 
+        <p>Your support will keep God's vision for this conference alive as God loves a cheerful giver (2 Cor 9:2)
         </p>
         <button className='joinBtn'>Donate</button>
       </div>

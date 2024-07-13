@@ -22,6 +22,8 @@ function App() {
      <About />
      <section className="ministers">
      <h2>Ministers</h2>
+     <p>We extend our heartfelt gratitude to our esteemed special guests for this year's 
+      conference believing that their presence will help ignite the embers and flames of  the Holy Spirit in our lives.</p>
      <Ministers />
      </section>
      <section className="join">
