@@ -2,14 +2,14 @@ import React from 'react'
 import './join.css'
 const Join = () => {
   return (
-    <div className='joinMain'>
+    <div className='joinMain' id='join'>
       <div className='joinContent'>
         <h3>Become a Volunteer</h3>
         <p>Interested in volunteering at the Transforming Fire Conference? Here comes a great 
           opportunity for you to serve the Lord as we have a variety of volunteer opportunities, 
           click to see the area of where you can serve. 
         </p>
-        <button className='joinBtn'>Volunteer</button>
+        <button className='joinBtn' onClick={() => window.open('https://form.jotform.com/241924262657461')}>Volunteer</button>
       </div>
       <div className='joinContent'>
         <h3>Become a Donor/Sponsor</h3>

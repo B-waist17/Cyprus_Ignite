@@ -12,14 +12,16 @@ import logo7 from '../../resources/Logo-7.png'
 const Sponsor = () => {
   return (
     <div className="sponsorContent">
-      <div className='logoContainer'><img src={logo} alt="logo" /></div>
+      <p>For Sponsorships/Partnerships Please Contact <br />
+      info.cyignitecon@gmail.com </p>
+      {/*<div className='logoContainer'><img src={logo} alt="logo" /></div>
       <div className='logoContainer'><img src={logo1} alt="logo" /></div>
       <div className='logoContainer'><img src={logo2} alt="logo" /></div>
       <div className='logoContainer'><img src={logo3} alt="logo" /></div>
       <div className='logoContainer'><img src={logo4} alt="logo" /></div>
       <div className='logoContainer'><img src={logo5} alt="logo" /></div>
       <div className='logoContainer'><img src={logo6} alt="logo" /></div>
-      <div className='logoContainer'><img src={logo7} alt="logo" /></div>
+  <div className='logoContainer'><img src={logo7} alt="logo" /></div> */}
     </div>
   )
 }

@@ -1,9 +1,24 @@
 .ministersMain {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 40px;
 
+}
+
+.leadMinisters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.otherMinisters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .minister {
@@ -29,9 +44,9 @@
 
 
 @media screen and (max-width: 550px) {
-    .ministersMain {
+    .otherMinisters, .leadMinisters {
         flex-direction: column;
-        gap: 50px;
+        gap: 16px;
     }
 
     .minister img {

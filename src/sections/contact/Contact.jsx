@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
 import { useState } from 'react'
-//import emailjs from ''
+import emailjs from '@emailjs/browser'
 
 
 const Contact = () => {
@@ -16,8 +16,8 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
        // console.log(name, email, number, subject, message)
-       const serviceId = 'service_jrf9m0o'
-       const templateId = 'template_zk55vfj'
+       const serviceId = 'service_yiqhsfi'
+       const templateId = 'template_f9wmogb'
        const publicKey = 'JFLJ58mI60tlyiGe6'
 
        const templateParams = {
@@ -26,10 +26,10 @@ const Contact = () => {
         from_number: number,
         the_subject: subject,
         message: message,
-        to_name: 'Ranye Udi',
+        to_name: 'Transforming Fire',
        }
 
-     /*  emailjs.send(serviceId, templateId, templateParams, publicKey)
+        emailjs.send(serviceId, templateId, templateParams, publicKey)
        .then((response) => {
         console.log('EMAIL SENT SUCCESSFULLY!', response.status, response.text)
         setName('')
@@ -40,10 +40,10 @@ const Contact = () => {
        })
        .catch((err) => {
         console.log('EMAIL SENDING FAILED...', err)
-       }) */
+       }) 
     } 
   return (
-    <div className="contactContent">
+    <div className="contactContent" id='contact'>
        <div className='contactForm'>
            
             <form action="submit">

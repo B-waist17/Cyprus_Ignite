@@ -19,7 +19,7 @@
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.564);
   background-blend-mode: overlay;
-  height: 750px;
+  height: 1000px;
   width: 100%;
   color: aliceblue;
   display: flex;
@@ -84,6 +84,13 @@
   width: 100%;
   gap: 32px;
 }
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+
 
 
 

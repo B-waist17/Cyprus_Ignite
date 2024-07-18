@@ -7,7 +7,7 @@ import clock from '../../resources/clock.svg'
 
 const About = () => {
   return (
-    <div className='aboutMain'>
+    <div className='aboutMain' id='about'>
       <h2>About this Event</h2>
         <div className='aboutContent'>
           <div><img src={aboutImage} alt='A group of people'/></div>

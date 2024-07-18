@@ -37,6 +37,15 @@
     width: 112px;
     height: 36px;
 }
+.navLink {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .navLink:hover {
+    color: #079347;
+  }
  
 /*.navMain {
     display: flex;
@@ -95,6 +104,15 @@
     margin: 1rem 0;
 }
 
+.navMenuContainerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+}
+
 
 
 @media screen and (max-width: 550px) {
@@ -109,5 +127,7 @@
     }
     .navCTA {
         display: none;
+
     }
+   
 }

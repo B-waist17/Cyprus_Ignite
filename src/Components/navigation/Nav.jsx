@@ -3,16 +3,17 @@ import './nav.css'
 import whiteLogo from '../../resources/cicwhitelogo.png'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import { useState } from 'react'
+import {Link} from 'react-scroll'
 
 
 const Menu = () => (
   <>
-  <p>Home</p>
-  <p>About</p>
-  <p>Ministers</p>
-  <p>Join Us</p>
-  <p>Sponsors</p>
-  <p>Contact Us</p>
+  <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} className='navLink'>Home</Link>
+  <Link to="about" spy={true} smooth={true} offset={-100} duration={500} className='navLink'>About</Link>
+  <Link to="ministers" spy={true} smooth={true} offset={-100} duration={500} className='navLink'>Ministers</Link>
+  <Link to="join" spy={true} smooth={true} offset={-100} duration={500} className='navLink'>Join Us</Link>
+  <Link to="sponsors" spy={true} smooth={true} offset={-100} duration={500} className='navLink'>Sponsors</Link>
+  <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className='navLink'>Contact Us</Link>
   </>
 )
 
@@ -22,7 +23,7 @@ const Nav = () => {
   return (
     <div className='navMain'>
     <div className='navContent'>
-      <img src={whiteLogo} alt="" />
+      <Link to="hero" spy={true} smooth={true} offset={-100} duration={500} className='navLink'><img src={whiteLogo} alt="" /></Link>
       <div className='navContentLinks'>
         <Menu />
       </div>
@@ -38,7 +39,7 @@ const Nav = () => {
             <div className='navMenuContainer scale-up-center'>
               <div className='navMenuContainerLinks'>
                 < Menu />
-                <button className='navMenuCTA'>Volunteer</button>
+                <button className='navMenuCTA'>Donate</button>
               </div>
             </div>
           )

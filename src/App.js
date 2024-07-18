@@ -20,7 +20,7 @@ function App() {
         <Timer />
       </section>
      <About />
-     <section className="ministers">
+     <section className="ministers" id='ministers'>
      <h2>Ministers</h2>
      <p>We extend our heartfelt gratitude to our esteemed special guests for this year's 
       conference believing that their presence will help ignite the embers and flames of  the Holy Spirit in our lives.</p>
@@ -30,7 +30,7 @@ function App() {
      <h2>Be a Part of Us</h2>
      <Join />
      </section>
-     <section className="sponsors">
+     <section className="sponsors" id='sponsors'>
       <h2>Official Sponsors</h2>
       <Sponsor />
      </section>
@@ -43,7 +43,7 @@ function App() {
      
      <section className="footer">
       <Footer />
-      <p>© 2024 CIC. All rights reserved.</p>
+      <p className='copyright'>© 2024 CIC. All rights reserved.</p>
      </section>
      
     </div>

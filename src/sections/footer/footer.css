@@ -27,6 +27,17 @@
     color: #080808;
     width: 310px;
 }
+li {
+    list-style-type: none;
+}
+
+.footerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 12px;
+}
 
 
 
