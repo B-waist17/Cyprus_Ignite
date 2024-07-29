@@ -1,10 +1,10 @@
 .heroMain {
     padding: 0 120px;
-    background-image: url('../../resources/Hero_Image.png');
+    background-image: url('../../resources/HeroImg.png');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.764);
+    background-color: rgba(0, 0, 0, 0.864);
     height: 680px;
     width: 100%;
     

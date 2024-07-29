@@ -4,6 +4,7 @@ import whiteLogo from '../../resources/cicwhitelogo.png'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import { useState } from 'react'
 import {Link} from 'react-scroll'
+import Modal from '../../Components/paymentModal/Modal'
 
 
 const Menu = () => (
@@ -27,7 +28,10 @@ const Nav = () => {
       <div className='navContentLinks'>
         <Menu />
       </div>
+      <Modal>
       <button className='navCTA'>Donate</button>
+      </Modal>
+      
       <div className='navMenu'>
         {
           toggleMenu 
@@ -39,7 +43,10 @@ const Nav = () => {
             <div className='navMenuContainer scale-up-center'>
               <div className='navMenuContainerLinks'>
                 < Menu />
+                <Modal>
                 <button className='navMenuCTA'>Donate</button>
+                </Modal>
+                
               </div>
             </div>
           )

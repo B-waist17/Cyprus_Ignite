@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState} from 'react';
 import './App.css';
 import Hero from './Components/hero/Hero';
 import Timer from './Components/timer/Timer.jsx';
@@ -9,7 +9,9 @@ import Sponsor from './sections/sponsors/Sponsor.jsx';
 import Contact from './sections/contact/Contact.jsx';
 import Footer from './sections/footer/Footer.jsx';
 
+
 function App() {
+
   return (
     <div className="main">
       <section className="hero">

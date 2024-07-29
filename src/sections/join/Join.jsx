@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useState} from 'react'
 import './join.css'
+import Modal from '../../Components/paymentModal/Modal';
+
 const Join = () => {
+  
+  
+
+
+  // explore react portals
+
   return (
+    <>
     <div className='joinMain' id='join'>
       <div className='joinContent'>
         <h3>Become a Volunteer</h3>
@@ -15,9 +24,12 @@ const Join = () => {
         <h3>Become a Donor/Sponsor</h3>
         <p>Your support will keep God's vision for this conference alive as God loves a cheerful giver (2 Cor 9:2)
         </p>
+      <Modal>
         <button className='joinBtn'>Donate</button>
+      </Modal>
       </div>
     </div>
+      </>
   )
 }
 

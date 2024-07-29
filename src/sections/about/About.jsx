@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import aboutImage from '../../resources/about-image.png'
+import aboutImage from '../../resources/cicPpster.jpeg'
 import mapIcon from '../../resources/map-location.svg'
 import calendar from '../../resources/calendar-linear.svg'
 import clock from '../../resources/clock.svg'
@@ -10,7 +10,7 @@ const About = () => {
     <div className='aboutMain' id='about'>
       <h2>About this Event</h2>
         <div className='aboutContent'>
-          <div><img src={aboutImage} alt='A group of people'/></div>
+          <div className='aboutImg'></div>
           <div className='aboutText'>
             <p>The Transforming fire conference is an annual gathering, where believers come together to worship, 
               praise, pray and get ignited as enabled by God's word by the Help of the Holy Spirit (Acts 2:1-4) <br />
