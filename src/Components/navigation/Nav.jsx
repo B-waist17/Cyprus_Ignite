@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css'
-import whiteLogo from '../../resources/cicwhitelogo.png'
+import whiteLogo from '../../resources/transforming fire cyprus logo.png'
 import { RiMenu3Line, RiCloseLine} from 'react-icons/ri'
 import { useState } from 'react'
 import {Link} from 'react-scroll'

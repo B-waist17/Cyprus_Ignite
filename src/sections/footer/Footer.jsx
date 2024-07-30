@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import blackLogo from '../../resources/cicblacklogo.png'
+import blackLogo from '../../resources/transforming fire cyprus logo.png'
 import { Link } from 'react-scroll'
 
 const Footer = () => {

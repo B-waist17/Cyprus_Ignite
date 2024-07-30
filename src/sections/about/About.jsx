@@ -23,7 +23,7 @@ const About = () => {
               <div className='location'>
                 <img src={mapIcon} alt='map'/>
                 <p>Zena Palace Theatre, 18,Theofanous theodotou
-                  1065, behind istorm shop, Nicosia</p>
+                  1065, behind istorm shop, Nicosia, Cyprus.</p>
               </div>
               <div className='time'>
                 <span className='calendar'><img src={calendar} alt='calendar'/><p>1 - 2 November, 2024</p></span>
