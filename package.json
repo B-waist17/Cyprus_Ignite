@@ -1,5 +1,6 @@
 {
   "name": "cyprus_ignite",
+  "homepage": "https://cyprusignite.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

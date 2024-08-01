@@ -31,8 +31,7 @@ const Modal = ({ open, onClose, children}) => {
                   Account Name: Eseoghene Christopher Akhabue. <br />
                   Swift code BCYPCY2N <br />
                   IBAN: CY44002001950000357029122720. <br />
-                  Bank Of Cyprus. <br />
-                  Kyriacou matsi, 50, Agios demetios, 2368, Engomi
+                  Bank Of Cyprus. 
               </p>
           </div>
         </div>

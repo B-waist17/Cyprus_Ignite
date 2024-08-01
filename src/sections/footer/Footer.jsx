@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footerMain">
       <div className='footerLogo'>
         <img src={blackLogo} alt="" />
-        <p>The ancient land of Cyprus must be ignited.... The fire must fall!</p>
+        <p>The ancient land of Cyprus must be ignited.... The Holy Ghost fire must fall!</p>
       </div>
       <div className='footerList'>
         <h4>Quick Links</h4>

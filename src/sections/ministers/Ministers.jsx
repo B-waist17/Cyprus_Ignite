@@ -3,9 +3,10 @@ import './ministers.css'
 import orokpor from '../../resources/a oropor 1.png'
 import ebuka from '../../resources/ebuka-songs-wfuhw.jpeg'
 import olga from '../../resources/olga_now.png'
-import eseoghene from '../../resources/eseoghene.png'
+import eseoghene from '../../resources/pst-Ese.png'
 import rennet from '../../resources/Rennet Premnath-2.png'
 import lukas from '../../resources/lukas.png'
+import Isaac from '../../resources/PASTOR ISAAC04399 1.png'
 
 const Ministers = () => {
   return (
@@ -22,6 +23,13 @@ const Ministers = () => {
         <img src={orokpor} alt="orokpor" />
         <div className='ministerText'>
             <h3>Apostle Micheal Orokpor</h3>
+            <p>Guest Speaker</p>
+        </div>
+      </div>
+      <div className='minister'>
+        <img src={Isaac} alt="isaac" />
+        <div className='ministerText'>
+            <h3>Pst. Isaac Samuel II</h3>
             <p>Guest Speaker</p>
         </div>
       </div>
