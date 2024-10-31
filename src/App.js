@@ -22,6 +22,9 @@ function App() {
         <Timer />
       </section>
      <About />
+     <section className="video">
+     <iframe width="720" height="415" src="https://www.youtube.com/embed/DPp5UtNpwSM?si=qtQGjcq3GJXSCauj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     </section>
      <section className="ministers" id='ministers'>
      <h2>Ministers</h2>
      <p>We extend our heartfelt gratitude to our esteemed special guests for this year's 

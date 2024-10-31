@@ -16,9 +16,10 @@
 }
 
 .aboutImg {
-    width: 512px;
-    background-image: url(../../resources/cicPoster.jpeg);
+    width: 520px;
+    background-image: url(../../resources/cyprusigniteflier.jpeg);
     background-size: cover;
+    background-position: center;
 }
 
 .aboutText {
