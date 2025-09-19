@@ -11,7 +11,7 @@ const Timer = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const eventDate = new Date(Date.UTC(2024, 10, 1, 15, 0, 0)).getTime();
+    const eventDate = new Date(Date.UTC(2025, 10, 7, 15, 0, 0)).getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
