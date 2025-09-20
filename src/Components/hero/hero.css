@@ -1,6 +1,6 @@
 .heroMain {
     padding: 0 120px;
-    background-image: url('../../resources/HeroImg.png');
+    background-image: url('../../resources/cyprusignite2025.jpeg');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,7 +12,7 @@
 
 .heroContent {
     color: #fff;
-    padding-top: 150px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
