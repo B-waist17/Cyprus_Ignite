@@ -32,7 +32,7 @@ const Ministers = () => {
         <img src={andrew} alt="isaac" />
         <div className='ministerText'>
             <h3>Pastor Andrew K.</h3>
-            <p>Guest Speaker</p>
+            <p></p>
         </div>
       </div>
       <div className='minister'>

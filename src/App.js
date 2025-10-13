@@ -48,7 +48,7 @@ function App() {
      
      <section className="footer">
       <Footer />
-      <p className='copyright'>© 2024 CIC. All rights reserved.</p>
+      <p className='copyright'>© 2025 CIC. All rights reserved.</p>
      </section>
      
     </div>
