@@ -14,12 +14,12 @@
 }
 
 .ministers {
-  background-image: url('./resources/ministers\ BG.png');
+  background-image: url('./resources/ministers_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.564);
   background-blend-mode: overlay;
-  height: 1000px;
+  /* height: 1000px; */
   width: 100%;
   color: aliceblue;
   display: flex;
