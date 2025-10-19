@@ -12,12 +12,15 @@ const About = () => {
         <div className='aboutContent'>
           <div className='aboutImg'></div>
           <div className='aboutText'>
-            <p>The Transforming fire conference is an annual gathering, where believers come together to worship, 
-              praise, pray and get ignited as enabled by God's word by the Help of the Holy Spirit (Acts 2:1-4) <br />
-              By the special grace of God, this year's  conference tagged: <b>CYPRUS IGNITE 2025</b>, 
-              is aimed at igniting the fire of the Holy Spirit in the lives of Christian believers as it was in the days of the early church. <br />
-              It is our belief and hope that as the fire of the Holy Spirit is ignited, there shall be mighty manifestations of His great grace and power (Acts 4:33) 
-              that will make the word of God grow mightily and prevail (Acts 19:20) with miracles, wonders and signs in the land and thus prompt the take over of Cyprus for Jesus Christ.
+            <p><b>Welcome to Cyprus Ignite Conference</b> <br />
+              Cyprus Ignite is an annual Christian awakening conference that began in 2024 with a bold vision: to see the nation of Cyprus set ablaze for Jesus. It is a powerful gathering 
+              where believers, pastors, and church leaders unite in worship, praise, intercession, and the Word of God. It is a call to see revival break out across the island.
+              <br /><br />
+              From its inception, Cyprus Ignite has been marked by the tangible presence of God. At Cyprus Ignite 2024, we witnessed a mighty move of the Holy Spirit with evident miracles, 
+              healings, and powerful testimonies of transformation. It was more than a conference, it was an encounter with God. <br /><br />
+              This Year’s Theme:
+              <b>“Christ in you, the hope of glory.”</b> (Colossians 1:27)
+
 
             </p>
               <div className='location'>
