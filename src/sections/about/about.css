@@ -17,7 +17,7 @@
 
 .aboutImg {
     width: 520px;
-    background-image: url(../../resources/cyprusignite2025.jpeg);
+    background-image: url(../../resources/New\ address\ Poster.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -49,6 +49,16 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.whyAttend {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 200px;
+    background-color: none;
+    margin: 0 auto;
+    gap: 24px;
 }
 
 

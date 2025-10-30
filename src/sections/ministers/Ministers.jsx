@@ -72,7 +72,7 @@ const Ministers = () => {
         <img src={queen} alt="lukas" />
         <div className='ministerText'>
             <h3>Minister Queen</h3>
-            <p>Judith    <span><ReactCountryFlag countryCode='CM' svg /></span></p>
+            <p>Judith <span><ReactCountryFlag countryCode='CM' svg /></span></p>
         </div>
       </div>
       <div className='minister'>
