@@ -53,7 +53,7 @@ const About = () => {
 
           A move of God with signs, wonders, and miracles. <br />
 
-          <b>Don’t miss what God is doing this year. Come expectant. Come hungry. Come ready to be ignited.</b>
+          <b>Don’t miss what God is doing this year. Come expectant. Come hungry. Come ready to be ignited</b>
 
         </p>
         </div>
